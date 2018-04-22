@@ -16,7 +16,7 @@
             <router-link class="nav-link" to="/reset-password"> Reset </router-link>
           </li>
 
-            <li class="nav-item active">
+            <li class="nav-item active" id="dbdump">
             <router-link class="nav-link" to="/dbdump"> DatabaseDump (must logout first) </router-link>
           </li>
 
@@ -53,5 +53,8 @@ li {
   float: left;
   display: inline;
   width:40%;
+}
+#dbdump {
+  width:70%;
 }
 </style>
