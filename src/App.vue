@@ -17,7 +17,7 @@
           </li>
 
             <li class="nav-item active">
-            <router-link class="nav-link" to="/dbdump"> DatabaseDump </router-link>
+            <router-link class="nav-link" to="/dbdump"> DatabaseDump (must logout first) </router-link>
           </li>
 
          </ul>
